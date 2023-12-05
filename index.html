@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<head>
+<meta charset="UTF=8">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div class="midasi">
+<h1>プログラム復習コンテンツ</h1>
+<a href="https://o-saringu.github.io/mokuji/">
+<div class="home"></div>
+</a>
+</div>
+
+<div class="oomidasi"><p>translate()関数</div>
+
+<div class="yoko">
+	<div class="yoko1">
+	<div class="komidasi1"><p>サンプルコードの結果</p></div>
+	<img src = "6-1.png">
+	</div>
+	<div class="yoko1">
+	<div class="komidasi2"><p>サンプルコード</div>
+<div class="code">
+	<p>　　	void setup(){
+	<p>　　	　size(480, 120)
+	<p>　　	｝
+	<p>　　	
+	<p>　　	void draw(){
+	<p>　　	　translate(mouseX, mouseY);
+	<p>　　	　rect(0, 0, 30, 30);
+	<p>　　	　translate(35, 10);
+	<p>　　	　rect(0, 0, 15, 15);
+	<p>　　	}　　
+	</div>
+	</div>
+</div>
+
+<div class="komidasi3"><p>説明文</div>
+<div class="ep">
+	<p>　基準となる座標を指定することができる関数。
+	<p>　基本的な座標の基準は画面左上の（0，0）となる。
+	<p>　translate(x, y)のx座標とy座標を指定することで基準の座標をずらすことができる。
+	<p>　例では、mouseX,Y変数を用いることでマウスカーソルの位置を基準点（0，0）に変更している。
+	<p>　その後、2つ目のtranslate()でマウスの位置を（0，0）として座標が（35，10）の位置に2つ目の四角形ができるようになっている。
+
+</div>
+</body>
+
